@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="JustLoginWebsiteBoilerplate.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>JustLogin - <%: Page.Title %></title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+    <link href="Content/eclaim-styles.css" rel="stylesheet" />
+    <script src="<%# Page.ResolveClientUrl("~/Scripts/jquery-1.9.1.min.js") %>"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManager" runat="server" EnablePartialRendering="true" EnablePageMethods="true"></asp:ScriptManager>
+        <div id="header" class="header">
+            <div id="logo" class="light-version">
+                <a href="JL-base.html"></a>
+                <img src="<%: Page.ResolveUrl("~") %>images/logo.png"></a>
+            </div>
+            <nav role="navigation">
+                <div class="header-link hide-menu"><i class="fa fa-bars"></i></div>
+                <div class="small-logo">
+                    <span class="text-primary"><%= CompanyName %> </span>
+                </div>
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav no-borders">
+                        <li>
+                            <a href="https://justlogin.zendesk.com/hc/en-us" id="sidebar">
+                                <i class="pe-7s-upload pe-7s-help1"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a border="0" id="go-modal-top" rel="leanModal" name="signup-top" href="#contact-modal">
+                                <i class="fa fa-comments"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <aside id="menu">
+            <div id="navigation">
+                <div class="profile-picture">
+                    <% if (!string.IsNullOrEmpty(ProfileImageUrl))
+                        { %>
+                    <img src="<%= ProfileImageUrl %>" class="img-circle m-b" alt="logo" width="100" height="100">
+                    <%}
+                        else
+                        { %>
+                    <div class="initials">
+                        <h2><%= Initials %></h2>
+                    </div>
+                    <%} %>
+                </div>
+
+                <ul class="nav" id="side-menu">
+                    <%= MenuHtml %>
+                </ul>
+            </div>
+        </aside>
+        <div id="wrapper">
+            <div class="container">
+                <%--animate-panel--%>
+                <section>
+                    <asp:ContentPlaceHolder runat="server" ID="BodyContent" />
+                </section>
+            </div>
+            <footer class="footer">
+                <span class="pull-right">&#169; Copyright <%: DateTime.Now.Year %> - <%=Version %>
+                </span>
+                Justlogin Pte Ltd.
+            </footer>
+        </div>
+        <script src="../Scripts/startup.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

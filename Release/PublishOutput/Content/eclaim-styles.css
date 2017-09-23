@@ -1,0 +1,70 @@
+/* line 1, ../scss/eclaim-styles.scss */
+.vert-mid {
+  vertical-align: middle !important;
+}
+
+/* line 4, ../scss/eclaim-styles.scss */
+.eclaim-header {
+  height: 56px !important;
+}
+
+/* line 7, ../scss/eclaim-styles.scss */
+.company-name {
+  font-size: 16px;
+}
+
+/* line 8, ../scss/eclaim-styles.scss */
+#logo {
+  padding: 13px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 13, ../scss/eclaim-styles.scss */
+.text-light {
+  font-weight: 100 !important;
+}
+
+/* line 16, ../scss/eclaim-styles.scss */
+.btn-invite {
+  margin: 0 10px;
+}
+
+/* line 19, ../scss/eclaim-styles.scss */
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* line 25, ../scss/eclaim-styles.scss */
+.eclaim-sidebar {
+  top: 55px !important;
+}
+/* line 27, ../scss/eclaim-styles.scss */
+.eclaim-sidebar .welcome {
+  padding: 35px 25px;
+}
+
+/* line 32, ../scss/eclaim-styles.scss */
+.eclaim-user td {
+  vertical-align: middle !important;
+}
+/* line 33, ../scss/eclaim-styles.scss */
+.eclaim-user td.no-border {
+  border-top: none;
+}
+/* line 36, ../scss/eclaim-styles.scss */
+.eclaim-user td.label {
+  width: 250px;
+}
+/* line 37, ../scss/eclaim-styles.scss */
+.eclaim-user select, .eclaim-user #eclaim-joindate, .eclaim-user #eclaim-dob {
+  font-size: 12px;
+}
+
+/* line 41, ../scss/eclaim-styles.scss */
+.eclaim-policy, .eclaim-currency, .eclaim-category {
+  margin: 20px 0;
+}

@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EClaims.master.cs"
+    Inherits="JustLoginWebsiteBoilerplate.EClaims" %>
+
+<asp:Content ID="HeadContentPlaceHolder" ContentPlaceHolderID="HeadContent" runat="server">
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="eClaimsHeadContent" runat="server" />
+</asp:Content>
+<asp:Content ID="MainContentPlaceHolder" ContentPlaceHolderID="BodyContent" runat="server">
+    <asp:ContentPlaceHolder ID="eClaimsBodyContent" runat="server" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.js"></script>
+    <script src="../Scripts/utilities.js"></script>
+</asp:Content>

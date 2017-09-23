@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Currencies>
+  <Currency>ALL - Albania Lek</Currency>
+  <Currency>AFN - Afghanistan Afghani</Currency>
+  <Currency>ARS - Argentina Peso</Currency>
+  <Currency>AWG - Aruba Guilder</Currency>
+  <Currency>AUD - Australia Dollar</Currency>
+  <Currency>AZN - Azerbaijan New Manat</Currency>
+  <Currency>BSD - Bahamas Dollar</Currency>
+  <Currency>BBD - Barbados Dollar</Currency>
+  <Currency>BYR - Belarus Ruble</Currency>
+  <Currency>BZD - Belize Dollar</Currency>
+  <Currency>BMD - Bermuda Dollar</Currency>
+  <Currency>BOB - Bolivia Boliviano</Currency>
+  <Currency>BAM - Bosnia and Herzegovina Convertible Marka</Currency>
+  <Currency>BWP - Botswana Pula</Currency>
+  <Currency>BGN - Bulgaria Lev</Currency>
+  <Currency>BRL - Brazil Real</Currency>
+  <Currency>BND - Brunei Darussalam Dollar</Currency>
+  <Currency>KHR - Cambodia Riel</Currency>
+  <Currency>CAD - Canada Dollar</Currency>
+  <Currency>KYD - Cayman Islands Dollar</Currency>
+  <Currency>CLP - Chile Peso</Currency>
+  <Currency>CNY - China Yuan Renminbi</Currency>
+  <Currency>COP - Colombia Peso</Currency>
+  <Currency>CRC - Costa Rica Colon</Currency>
+  <Currency>HRK - Croatia Kuna</Currency>
+  <Currency>CUP - Cuba Peso</Currency>
+  <Currency>CZK - Czech Republic Koruna</Currency>
+  <Currency>DKK - Denmark Krone</Currency>
+  <Currency>DOP - Dominican Republic Peso</Currency>
+  <Currency>XCD - East Caribbean Dollar</Currency>
+  <Currency>EGP - Egypt Pound</Currency>
+  <Currency>SVC - El Salvador Colon</Currency>
+  <Currency>EEK - Estonia Kroon</Currency>
+  <Currency>EUR - Euro Member Countries</Currency>
+  <Currency>FKP - Falkland Islands (Malvinas) Pound</Currency>
+  <Currency>FJD - Fiji Dollar</Currency>
+  <Currency>GHC - Ghana Cedis</Currency>
+  <Currency>GIP - Gibraltar Pound</Currency>
+  <Currency>GTQ - Guatemala Quetzal</Currency>
+  <Currency>GGP - Guernsey Pound</Currency>
+  <Currency>GYD - Guyana Dollar</Currency>
+  <Currency>HNL - Honduras Lempira</Currency>
+  <Currency>HKD - Hong Kong Dollar</Currency>
+  <Currency>HUF - Hungary Forint</Currency>
+  <Currency>ISK - Iceland Krona</Currency>
+  <Currency>INR - India Rupee</Currency>
+  <Currency>IDR - Indonesia Rupiah</Currency>
+  <Currency>IRR - Iran Rial</Currency>
+  <Currency>IMP - Isle of Man Pound</Currency>
+  <Currency>ILS - Israel Shekel</Currency>
+  <Currency>JMD - Jamaica Dollar</Currency>
+  <Currency>JPY - Japan Yen</Currency>
+  <Currency>JEP - Jersey Pound</Currency>
+  <Currency>KZT - Kazakhstan Tenge</Currency>
+  <Currency>KPW - Korea (North) Won</Currency>
+  <Currency>KRW - Korea (South) Won</Currency>
+  <Currency>KGS - Kyrgyzstan Som</Currency>
+  <Currency>LAK - Laos Kip</Currency>
+  <Currency>LVL - Latvia Lat</Currency>
+  <Currency>LBP - Lebanon Pound</Currency>
+  <Currency>LRD - Liberia Dollar</Currency>
+  <Currency>LTL - Lithuania Litas</Currency>
+  <Currency>MKD - Macedonia Denar</Currency>
+  <Currency>MYR - Malaysia Ringgit</Currency>
+  <Currency>MUR - Mauritius Rupee</Currency>
+  <Currency>MXN - Mexico Peso</Currency>
+  <Currency>MNT - Mongolia Tughrik</Currency>
+  <Currency>MZN - Mozambique Metical</Currency>
+  <Currency>NAD - Namibia Dollar</Currency>
+  <Currency>NPR - Nepal Rupee</Currency>
+  <Currency>ANG - Netherlands Antilles Guilder</Currency>
+  <Currency>NZD - New Zealand Dollar</Currency>
+  <Currency>NIO - Nicaragua Cordoba</Currency>
+  <Currency>NGN - Nigeria Naira</Currency>
+  <Currency>KPW - Korea (North) Won</Currency>
+  <Currency>NOK - Norway Krone</Currency>
+  <Currency>OMR - Oman Rial</Currency>
+  <Currency>PKR - Pakistan Rupee</Currency>
+  <Currency>PAB - Panama Balboa</Currency>
+  <Currency>PYG - Paraguay Guarani</Currency>
+  <Currency>PEN - Peru Nuevo Sol</Currency>
+  <Currency>PHP - Philippines Peso</Currency>
+  <Currency>PLN - Poland Zloty</Currency>
+  <Currency>QAR - Qatar Riyal</Currency>
+  <Currency>RON - Romania New Leu</Currency>
+  <Currency>RUB - Russia Ruble</Currency>
+  <Currency>SHP - Saint Helena Pound</Currency>
+  <Currency>SAR - Saudi Arabia Riyal</Currency>
+  <Currency>RSD - Serbia Dinar</Currency>
+  <Currency>SCR - Seychelles Rupee</Currency>
+  <Currency>SGD - Singapore Dollar</Currency>
+  <Currency>SBD - Solomon Islands Dollar</Currency>
+  <Currency>SOS - Somalia Shilling</Currency>
+  <Currency>ZAR - South Africa Rand</Currency>
+  <Currency>KRW - Korea (South) Won</Currency>
+  <Currency>LKR - Sri Lanka Rupee</Currency>
+  <Currency>SEK - Sweden Krona</Currency>
+  <Currency>CHF - Switzerland Franc</Currency>
+  <Currency>SRD - Suriname Dollar</Currency>
+  <Currency>SYP - Syria Pound</Currency>
+  <Currency>TWD - Taiwan New Dollar</Currency>
+  <Currency>THB - Thailand Baht</Currency>
+  <Currency>TTD - Trinidad and Tobago Dollar</Currency>
+  <Currency>TRY - Turkey Lira</Currency>
+  <Currency>TRL - Turkey Lira</Currency>
+  <Currency>TVD - Tuvalu Dollar</Currency>
+  <Currency>UAH - Ukraine Hryvna</Currency>
+  <Currency>GBP - United Kingdom Pound</Currency>
+  <Currency>USD - United States Dollar</Currency>
+  <Currency>UYU - Uruguay Peso</Currency>
+  <Currency>UZS - Uzbekistan Som</Currency>
+  <Currency>VEF - Venezuela Bolivar</Currency>
+  <Currency>VND - Viet Nam Dong</Currency>
+  <Currency>YER - Yemen Rial</Currency>
+  <Currency>ZWD - Zimbabwe Dollar</Currency>
+</Currencies>

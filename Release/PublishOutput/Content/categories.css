@@ -1,0 +1,14 @@
+﻿.btn-disable {
+    background-color: #323232;
+    border-color: #323232;
+    color: #FFFFFF
+}
+.btn-disable:hover,
+.btn-disable:focus,
+.btn-disable:active,
+.btn-disable.active,
+.open .dropdown-toggle.btn-primary2 {
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+    color: white;
+}

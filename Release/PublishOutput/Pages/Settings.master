@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/EClaims.master" AutoEventWireup="true" CodeBehind="Settings.master.cs" Inherits="JustLoginWebsiteBoilerplate.Pages.Settings" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="eClaimsHeadContent" runat="server">
+    <asp:ContentPlaceHolder ID="SettingsHeadContent" runat="server" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="eClaimsBodyContent" runat="server">
+    <div class="content">
+        <ul id="settingsNavTab" class="nav nav-tabs">
+            <li id="currencies"><a href="Currencies.aspx">Currencies</a></li>            
+            <li id="categories"><a href="Categories.aspx">Categories</a></li>            
+            <li id="expensePreferences"><a href="ExpensePreferences.aspx">Expense Preferences</a></li>            
+            <li id="reportPreferences"><a href="ReportPreferences.aspx">Report Preferences</a></li>            
+        </ul>
+        <asp:ContentPlaceHolder ID="SettingsBodyContent" runat="server" />
+    </div>
+</asp:Content>

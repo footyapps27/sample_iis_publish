@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menus>
+  <MainMenu title="Claims" url="Pages/Dashboard.aspx" menuId="12023" imageUrl="images/modules/ebenefit.png">
+    <SubMenu title="Users" url="Pages/Users.aspx" />
+    <SubMenu title="Settings" url="Pages/Currencies.aspx" />
+  </MainMenu>
+</Menus>

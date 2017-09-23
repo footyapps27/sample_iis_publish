@@ -1,0 +1,19 @@
+﻿.memberInactive {
+    color: black;
+}
+
+.memberActive {
+    color: #62cb31;
+}
+
+.memberDeleted {
+    color: #e74c3c;
+}
+
+.memberInvited {
+    color: #3498db;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}

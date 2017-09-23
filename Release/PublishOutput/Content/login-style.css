@@ -1,0 +1,26 @@
+html { width: auto !important; overflow-x: hidden !important; font-size: 15px; height: 100%; }
+body { width: auto !important; overflow-x: hidden !important; font-size: 15px; line-height: 1.8; }
+
+.btn-grn { background: #2fb679; color: #ffffff; }
+.btn-grn:hover { -webkit-box-shadow: inset 0px 0px 56px -7px rgba(0, 0, 0, 0.5); box-shadow: inset 0px 0px 56px -7px rgba(0, 0, 0, 0.5); color: white;}
+.btn-grn-outline { border: #2fb679 thin solid; color: #2fb679; font-weight: bold; background-color: white;}
+.btn-grn-outline:hover { border: #ffffff thin solid; color: #ffffff; background-color: #2fb679; font-weight: bold;}
+.session-timeout { background: #238ca5; color: #fff; border: none; text-align: center;}
+.login-bg-form { width: 250px; margin: 0 auto; }
+@media screen and (max-width: 480px) { .login-bg-form { width: 210px; } }
+.login-bg-form .input-group { margin-bottom: 15px; }
+
+.login-form-bg { background-color: white; padding: 25px 60px 35px 60px; border: #ccc thin solid; border-radius: 4px; margin: 0 auto; width: 80%; text-align: center; }
+@media screen and (max-width: 480px) { .login-form-bg { padding: 25px 20px 35px 20px; } }
+.login-form-bg h3 { font-weight: 600; margin-bottom: 20px; }
+.login-form-bg .btn-grn { margin: 25px 0 10px 0; }
+.login-form-bg .forgot-password { color: #238ca5; font-size: 12px; text-align: center; float: left; }
+.login-form-bg .lang { text-align: center; font-size: 12px; color: #238ca5; float: right; }
+.login-form-bg .logo-gray { text-align: center; padding: 20px 0 10px 0; border-top: #ededed thin dashed; }
+.login-copyright { font-size: 12px; color: #ededed; text-align: center; display: block; text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7); }
+.trial .forgot-password { font-size: 12px; display: block; margin-top: 10px; margin-bottom: 10px; text-align: center; color: gray; }
+.bg-login-wp { background: url("../images/bg-login-wp.jpg") no-repeat top center; background-size: cover; height: 100% !important; width: 100%; }
+.forgot-wp { width: inherit; }
+.logo-wp { margin: 25px; text-align: center; }
+.login-wp { width: 100%; }
+.login-wp-notif { margin-left: 40px; margin-right: 40px; }
