@@ -33,3 +33,22 @@ function ConfirmCurrencyDeletion(item) {
 	var message = 'Are you sure you want to delete currency: ' + code + '?';
     return ConfirmItemDeletion(item, message);
 }
+
+function ViewExchangeRates(sender) {
+    var id = $(sender).data("id");
+    var code = $(sender).data("code");
+    $('[id$=SelectedCurrencyId]').val(id);
+    $('[id$=SelectedCurrencyCode]').val(code);
+}
+
+//Ask the user for confirmation before deleting an item
+function ConfirmExchangeRateDeletion(item) {
+    //The below replace method is required to remove all quotes('). This was required as the
+    //retrieved values were boxed in quotes. Can be removed if not required anymore.
+    var id = $(item).data("id").replace(/'/g, '');
+    var rate = $(item).data("rate");
+    var date = $(item).data("date").replace(/'/g, '');
+    $('[id$=EditingExchangeRateId]').val(id);
+	var message = 'Are you sure you want to delete the following exchange rate? <br /><br />Value: ' + rate + '<br />Date: ' + date;
+    return ConfirmItemDeletion(item, message);
+}

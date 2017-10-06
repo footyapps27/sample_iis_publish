@@ -9,25 +9,41 @@
             <div class="hpanel">
                 <div class="panel-body tabContentBody">
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-xs-12">
                             <div class="clearfix">
                                 <a href="#" data-toggle="modal" data-target="#newCurrency" class="btn btn-success btn-sm pull-right">+ New Currency</a>
                             </div>
+                            <asp:HiddenField ID="SelectedCurrencyId" runat="server" />
+                            <asp:HiddenField ID="SelectedCurrencyCode" runat="server" />
                             <div class="table-responsive">
                                 <asp:GridView ID="CurrencyGridView" runat="server" CssClass="table table-responsive table-striped eclaim-currency"
                                     AutoGenerateColumns="False" ItemType="EClaims.Core.BO.Currency" GridLines="None" DataKeyNames="Id"
-                                    EmptyDataText="No currencies found.">
+                                    EmptyDataText="No currencies found." OnRowDataBound="CurrencyGridView_OnRowDataBound">
                                     <Columns>
                                         <asp:BoundField HeaderText="Currency" DataField="Code">
-                                            <ItemStyle CssClass="col-xs-6"></ItemStyle>
+                                            <ItemStyle CssClass="col-xs-4"></ItemStyle>
                                         </asp:BoundField>
                                         <asp:BoundField HeaderText="Symbol" DataField="Symbol">
                                             <HeaderStyle CssClass="text-center"></HeaderStyle>
                                             <ItemStyle CssClass="text-center col-xs-2"></ItemStyle>
                                         </asp:BoundField>
-                                        <asp:TemplateField>
-                                            <ItemStyle CssClass="col-xs-4 text-right"></ItemStyle>
+                                        <asp:BoundField HeaderText="Exchange Rate" DataField="ActiveExchangeRate.Value">
+                                            <HeaderStyle CssClass="text-center"></HeaderStyle>
+                                            <ItemStyle CssClass="text-center col-xs-2"></ItemStyle>
+                                        </asp:BoundField>
+                                        <asp:TemplateField HeaderText="As of Date">
+                                            <ItemStyle CssClass="col-xs-2"></ItemStyle>
                                             <ItemTemplate>
+                                                <asp:Label ID="Label1" runat="server"><%#: Item.ActiveExchangeRate?.Date.ToShortDateString() %></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                        <asp:TemplateField>
+                                            <ItemStyle CssClass="col-xs-2 text-right"></ItemStyle>
+                                            <ItemTemplate>
+                                                <asp:LinkButton ID="ViewExchangeRatesHyperLink" runat="server" CssClass="btn btn-xs btn-default"
+                                                    OnClick="ViewExchangeRatesHyperLink_OnClick" data-id="<%#: Item.Id %>" data-code="<%#: Item.Code %>" OnClientClick="ViewExchangeRates(this)">
+                                                    <i class="fa fa-eye" aria-hidden="true"></i>View Exchange Rates                                                    
+                                                </asp:LinkButton>
                                                 <a href="#" class="btn btn-xs btn-default" data-id="'<%#: Item.Id %>'" data-code="'<%#: Item.Code %>'" data-format="'<%#: Item.Format %>'" data-symbol="'<%#: Item.Symbol %>'" data-decimalplaces="'<%#: Item.DecimalPlaces %>'" data-toggle="modal" data-target="#editCurrency" onclick="EditCurrency(this);">
                                                     <i class="fa fa-pencil" aria-hidden="true"></i>Edit
                                                 </a>
